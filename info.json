@@ -6,6 +6,9 @@
     "contact": "Mod Portal: SleepyEngi | www.youtube.com/c/sleepyengi | twitter.com/SleepyEngi ",
     "homepage": "",
     "factorio_version": "1.1",
-    "dependencies": ["base >= 0.18"],
+    "dependencies": [
+        "base >= 0.18",
+        "? jetpack >= 0.3.14"
+    ],
     "description": "This mod replaces your character with a female version of the engineer, Gear Girl! Contains a fully animated character with all 3 levels of armor and custom color masks. Thanks to Hideboar for the design I based my 3D model on!"
 }

@@ -129,4 +129,9 @@ if replace_base_char then
   data.raw.character.character = data.raw.character[CHAR_NAME]
   data.raw.character.character.name = "character"
   data.raw.character[CHAR_NAME] = nil
+
+  if (mods["jetpack"]) then
+    GG.dwrite("Jetpack mod is active, overwriting sprites")
+    require("prototypes.phase3.girl_character_jetpack")
+  end
 end
